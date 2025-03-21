@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>minimal_latency_buffer</name>
+  <version>1.0.0</version>
+  <description>
+    This package contains a buffer implementation for handling inputs from a multi-sensor system with differing
+    update periods and latencies.
+  </description>
+  <author>Alexander Scheible</author>
+  <author>Dominik Authaler</author>
+  <author>Thomas Wodtko</author>
+
+  <maintainer email="alexander.scheible@uni-ulm.de">Alexander Scheible</maintainer>
+  <maintainer email="dominik.authaler@uni-ulm.de">Dominik Authaler</maintainer>
+  <maintainer email="thomas.wodtko@uni-ulm.de">Thomas Wodtko</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>aduulm_cmake_tools</depend>
+
+  <test_depend>gtest</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <build_type>cmake</build_type>
+  </export>
+
+</package>

@@ -1,0 +1,5 @@
+project:
+  - files: "*"
+    copyright: 2024, Ulm University, Institute of Measurement, Control and Microtechnology
+    license: Apache-2.0
+
